@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>1 JavaScript</title>
+  <link rel="styleSheet" href="1JavaScript.css"/>
+  <script src="1javaScript.js"></script>
+
+</head>
+<body onload="showDate()">
+  <div class="header">
+    <h1 id="heading"> Learning JavaScript</h1>
+    <p> with Brad Traversy</p>
+  </div>
+  <div class="container">
+                  <!-- //CHANGE TITLE FUNCTION a -->
+    <!-- <button onclick="changedText()"> click Me</button> -->
+        <h1 id="time"></h1>
+                  <!-- // CHANGE DATE FUNCTION a -->
+
+    <button onclick="showDate()">Show Date</button>
+
+  </div>
+<script>
+// function doclick(){
+//   alert('You Clicked!');
+// }
+// id.innerHTML = 'You Clicked!';
+// Get Element by ID
+          //CHANGE TITLE FUNCTION b
+// function changedText(){
+//   var heading = document.getElementById('heading');
+//   heading.innerHTML = 'You Clicked!';
+// }
+        // CHANGE DATE FUNCTION b
+function showDate(){
+  var time = document.getElementById('time');
+  time.innerHTML = Date();
+}
+
+</script>
+
+</body>
+</html>
